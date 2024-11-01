@@ -58,15 +58,20 @@
         <profile>
             <id>dev</id>
             <dependencies>
+<!--                <dependency>-->
+<!--                    <groupId>secret</groupId>-->
+<!--                    <artifactId>secret</artifactId>-->
+<!--                    <version>secret</version>-->
+<!--                    <scope>system</scope>-->
+<!--                    &lt;!&ndash;            FOR maven-shade-plugin&ndash;&gt;-->
+<!--                    <systemPath>C:/Users/ker10/IdeaProjects/nested-jar/provided-client/target/provided-client-0.0.1-SNAPSHOT.jar</systemPath>-->
+<!--                    &lt;!&ndash;            FOR maven-assembly-plugin&ndash;&gt;-->
+<!--                    &lt;!&ndash;            <systemPath>C:/Users/ker10/IdeaProjects/nested-jar/provided-client/target/provided-client-0.0.1-SNAPSHOT-jar-with-dependencies.jar</systemPath>&ndash;&gt;-->
+<!--                </dependency>-->
                 <dependency>
-                    <groupId>secret</groupId>
-                    <artifactId>secret</artifactId>
-                    <version>secret</version>
-                    <scope>system</scope>
-                    <!--            FOR maven-shade-plugin-->
-                    <systemPath>C:/Users/ker10/IdeaProjects/nested-jar/provided-client/target/provided-client-0.0.1-SNAPSHOT.jar</systemPath>
-                    <!--            FOR maven-assembly-plugin-->
-                    <!--            <systemPath>C:/Users/ker10/IdeaProjects/nested-jar/provided-client/target/provided-client-0.0.1-SNAPSHOT-jar-with-dependencies.jar</systemPath>-->
+                    <groupId>com.begodly</groupId>
+                    <artifactId>provided-client</artifactId>
+                    <version>0.0.1-SNAPSHOT</version>
                 </dependency>
             </dependencies>
         </profile>
