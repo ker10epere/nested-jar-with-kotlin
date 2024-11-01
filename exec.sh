@@ -18,6 +18,7 @@ mvn org.apache.maven.plugins:maven-install-plugin:3.1.3:install-file \
                          -Dfile=provided-client/target/provided-client-0.0.1-SNAPSHOT.jar -DgroupId=com.begodly \
                          -DartifactId=provided-client -Dversion=0.0.1-SNAPSHOT \
                          -Dpackaging=jar 
+                         
                          -DlocalRepositoryPath=<path>
 
 

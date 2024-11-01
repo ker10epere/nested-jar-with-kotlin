@@ -1,5 +1,6 @@
 package com.begodly.providedclient
 
+import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Configuration
 import org.springframework.http.MediaType
@@ -9,6 +10,7 @@ import org.springframework.web.client.RestClient
 //@SpringBootApplication
 //@Suppress("SpringJavaInjectionPointsAutowiringInspection")
 class JsonPlaceholder(clientBuilder: RestClient.Builder) : CommandLineRunner {
+    private val logger = KotlinLogging.logger {}
     private final val client: RestClient
 
     init {
@@ -23,7 +25,7 @@ class JsonPlaceholder(clientBuilder: RestClient.Builder) : CommandLineRunner {
                 .retrieve()
                 .toEntity(String::class.java)
                 .body ?: "No Response"
-        System.out.println("<<<<<<<<<<<<< $response")
+        logger.info { "RESPONSE $response" }
     }
 }
 

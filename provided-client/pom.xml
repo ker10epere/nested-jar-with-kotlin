@@ -20,11 +20,11 @@
     <dependencies>
         <!--        KOTLIN LOGGING DEPENDENCIES-->
         <!-- https://mvnrepository.com/artifact/io.github.oshai/kotlin-logging-jvm -->
-<!--        <dependency>-->
-<!--            <groupId>io.github.oshai</groupId>-->
-<!--            <artifactId>kotlin-logging-jvm</artifactId>-->
-<!--            <version>7.0.0</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>io.github.oshai</groupId>
+            <artifactId>kotlin-logging-jvm</artifactId>
+            <version>7.0.0</version>
+        </dependency>
 
         <!--        SPRING BOOT DEPENDENCIES-->
 

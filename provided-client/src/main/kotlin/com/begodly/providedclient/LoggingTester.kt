@@ -1,10 +1,13 @@
 package com.begodly.providedclient
 
+import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.stereotype.Component
 
 @Component
 class LoggingTester {
+    private val logger = KotlinLogging.logger {}
+
     constructor() {
-        System.out.println("<<<<<<<<<<<<<<<< HELLO")
+        logger.info { ">> HELLO" }
     }
 }
