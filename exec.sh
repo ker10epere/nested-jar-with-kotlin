@@ -23,3 +23,4 @@ mvn org.apache.maven.plugins:maven-install-plugin:3.1.3:install-file \
 
 
 
+mkdir -p provided-client/target/dump; unzip  -o -d provided-client/target/dump provided-client/target/provided-client-0.0.1-SNAPSHOT.jar
