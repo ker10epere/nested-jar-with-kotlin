@@ -1,0 +1,7 @@
+spring.application.name: web-entrypoint
+#spring:
+#  main:
+#    web-application-type: none
+logging:
+  level:
+    com.begodly: trace
